@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.font-large {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.parent {
+  background-color: rgb(11, 40, 30);
+  padding: 50px;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.child {
+  background-color: antiquewhite;
+  width: 50%;
+}
+
+.container {
+  background-color: darkgoldenrod;
+  color: white;
+
+  width: 80%;
+  margin: auto;
+  margin-top: 2rem;
+  padding: 5em;
+}
